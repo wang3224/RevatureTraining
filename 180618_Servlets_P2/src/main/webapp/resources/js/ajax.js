@@ -7,7 +7,7 @@ function getNpcs(){
 	table.innerHTML = "";
 	//Use the servlet url mapping for your url
 	//when hitting it with AJAX.
-	let url = "SelectNpc";
+	let url = "/180618_Servlets_p2/SelectNpc";
 	
 	xhr.onreadystatechange = function(){
 		if(xhr.readyState==4){
